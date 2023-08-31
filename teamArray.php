@@ -1,11 +1,11 @@
 <?php
 $team = 
 array(
-		'Andrew' =>
+		'Andrew Keller' =>
 		array(
 			'name' => "Andrew Keller",
 			'picture' => "images/Andrew.jpg",
-			'desiredJobTitle' => "Business Analyst",
+			'desiredJobtitle' => "Business Analyst",
 			'email' => "kellera11@mymail.nku.edu",
 			'number' => '513 555 5855',
 			'linkedIn' => 'https://www.linkedin.com/in/-andrew-keller',
@@ -74,11 +74,11 @@ array(
 
 		),
 
-		'Evan' =>
+		'Evan McMillin' =>
 		array(
 			'name' => "Evan McMillin",
 			'picture' => "images/me_lancer1.jpg",
-			'desiredJobTitle' => "Database Analyst",
+			'desiredJobtitle' => "Database Analyst",
 			'email' => "mcmilline1@nku.edu",
 			'number' => '(513)869-9060',
 			'linkedIn' => 'https://linkedin.com/in/emcmillin25',
@@ -143,11 +143,11 @@ array(
 			)
 
 		),
-		'Leo' =>
+		'Leo Foy' =>
 		array(
 			'name' => "Leo Foy",
 			'picture' => "",
-			'desiredJobTitle' => "Application Engineer",
+			'desiredJobtitle' => "Application Engineer",
 			'email' => "lfoy306@gmail.com",
 			'number' => '(802)622-4425',
 			'linkedIn' => 'linkedin.com/in/leo-foy/',
@@ -214,11 +214,11 @@ array(
 
 			)
 		),
-		'Julianna' =>
+		'Julianna Truitt' =>
 		array(
 			'name' => "Julianna Truitt",
 			'picture' => "",
-			'desiredJobTitle' => "Software Engineer",
+			'desiredJobtitle' => "Software Engineer",
 			'email' => "truittj3@nku.edu",
 			'number' => '859-609-5761',
 			'linkedIn' => 'linkedin.com/juliannatruitt',
@@ -264,6 +264,7 @@ array(
 					"description" => "Greeted customers with a smile and made sure the line kept moving to assist as many customers as possible and as fast as possible. Helped kitchen staff when they needed an extra hand and when I had no customers in the drive-thru.",
 					'acheivements' => array(""),
 					'techUsed' => array("")
+				)
 
 			),
 			"Skills" => 
@@ -300,6 +301,6 @@ array(
 		)
 
 
-	));
+	);
 ?>
 	
