@@ -57,12 +57,7 @@ array(
 				"edu2" => array("BS Computer Information Technology", "Northern Kentucky University","2020 - 2023")
 			),
 			'awards' => array(),
-			"language" => 
-			array(
-				"lang0" => array("English", "(Native)"),
-				"lang1" => array("Spanish", "(Learning)")
-
-			),
+			"language" => array("English" => "(Native)","Spanish" =>"(Learning)"),
 			"otherSkill" => array("GitHub","MacOS","Project Management"),
 			"project" =>
 			array(
@@ -124,12 +119,7 @@ array(
 				"edu2" => array("Academic Honors Degree", "Franklin County High School","2016 - 2020")
 			),
 			'awards' => array("Dean's List x4"=>"Maintain B or higher in the semester","Hardhat Award"=>"Outstanding achievement and hard work each day of work"),
-			"language" => 
-			array(
-				"lang0" => array("English", "(Native)"),
-				"lang1" => array("Spanish", "(Education)")
-
-			),
+			"language" => array("English" => "(Native)","Spanish" => "(Education)"),
 			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
@@ -197,11 +187,7 @@ array(
 				"edu2" => array("Academic Honors Degree", "Franklin County High School","2016 - 2020")
 			),
 			'awards' => array("Dean's List x4"=>"Maintain B or higher in the semester","Hardhat Award"=>"Outstanding achievement and hard work each day of work"),
-			"language" => 
-			array(
-				"lang0" => array("English", "(Native)")
-
-			),
+			"language" => array("English" => "(Native)"),
 			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
@@ -282,11 +268,7 @@ array(
 				"edu2" => array("ASc in Science", "Gateway Community and Technical College","2021-2023")
 			),
 			"awards" => array("Presidents List"=>"Recieved all A's in a semester.","Deans List"=>"Recieved all A's and B's in a semester."),
-			"language" => 
-			array(
-				"lang0" => array("English", "(Native)")
-
-			),
+			"language" => array("English" => "(Native)"),
 			"otherSkill" => 
 			array("pandas","supervised machine learning algorithms","matpyplot","sklearn"),
 			"project" =>
