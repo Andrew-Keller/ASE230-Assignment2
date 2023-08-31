@@ -93,126 +93,91 @@ $detailArray = $team[$_GET['name']];
 										    ?>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold"><?='Achievements:'?></h4>
 										    <ul>
-										    <?php foreach($detailArray['Acheivements'] as $acheivement) {?>
+										    <?php foreach($job['Acheivements'] as $acheivement) {?>
 											    <li><?=$acheivement?></li>
 											<?php }}?>
 										    </ul>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <?php if(empty($job['techUsed'])){ } 
+										    else{
+										    ?>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold"><?php 'Technologies used:'?></h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Angular</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Python</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Webpack</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgresSQL</span></li>
+										    <?php foreach($job['techUsed'] as $tech){ ?>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $tech?></span></li>
+										<?php }?>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-								    <?php }?>
+								    <?php }}?>
 								   
-								    
-								 
-								    
+
 							    </div><!--//resume-timeline-->
-							    
-							    
-							    
-							    
-							    
 							    
 						    </div>
 					    </section><!--//projects-section-->
 				    </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?='Skills &amp; Tools' ?></h2>
 						    <div class="resume-section-content">
 						        <div class="resume-skill-item">
 							        <ul class="list-unstyled mb-4">
+						        	<?php foreach ($detailArray['skills'] as $skill => $number) { ?>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Angular</div>
+								            <div class="resume-skill-name"><?= $skill?></div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: <?=$number?>" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">React</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">JavaScript</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Node.js</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
-									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-								        </li>
+								      <?php }?>
 							        </ul>
 						        </div><!--//resume-skill-item-->
+
 						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+						            <h4 class="resume-skills-cat font-weight-bold"><?='Others'?></h4>
 						            <ul class="list-inline">
-							            <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
+						            	<?php foreach($detailArray['otherSkill'] as $otherSkill) 
+						            	{ ?>
+							            <li class="list-inline-item"><span class="badge badge-light"><?=$otherSkill?></span></li>
+						            	<?php } ?>
+
 						            </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
 					    </section><!--//skills-section-->
 					    <section class="resume-section education-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?='Education'?></h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
+							    	<?php foreach($detailArray['education'] as $edu) {?>
 								    <li class="mb-2">
-								        <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-								        <div class="resume-degree-org">University College London</div>
-								        <div class="resume-degree-time">2013 - 2014</div>
+								        <div class="resume-degree font-weight-bold"><?=$edu[0]?></div>
+								        <div class="resume-degree-org"><?=$edu[1]?></div>
+								        <div class="resume-degree-time"><?=$edu[2]?></div>
 								    </li>
-								    <li>
-								        <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-								        <div class="resume-degree-org">Imperial College London</div>
-								        <div class="resume-degree-time">2010 - 2013</div>
-								    </li>
+								<?php } ?>
 							    </ul>
 						    </div>
 					    </section><!--//education-section-->
+					    <?php if(empty($detailArray['awards'])) {}
+							else{ ?>
 					    <section class="resume-section reference-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><?='Awards'?></h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-awards-list">
+							    	<?php foreach($detailArray['awards'] as $award => $desc) {?>
 								    <li class="mb-2 ps-4 position-relative">
 								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Lorem</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+
+								        <div class="resume-award-name"><?=$award?></div>
+								        <div class="resume-award-desc"><?=$desc?></div>
 								    </li>
-								    <li class="mb-0 ps-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Ipsum</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
-								    </li>
+								  <?php } ?>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
+					<?php } ?>
 					    <section class="resume-section language-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Languages</h2>
 						    <div class="resume-section-content">
@@ -286,5 +251,5 @@ $detailArray = $team[$_GET['name']];
     
 
 </body>
-</html> 
+</html>
 

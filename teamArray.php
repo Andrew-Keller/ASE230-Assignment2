@@ -12,7 +12,7 @@ array(
 			'gitHub' => 'https://github.com/andrew-keller',
 			'website' => 'andrewkeller.dev',
 			'summary' => 'I am a senior CIT student wokring on a degree in Web and Database Administration. My main focus is in data analytics and data storage. My passion is solving problems with creative solutions and finding out what I can accomplish.',
-			'Interests' => ["Hiking", "Snowboarding", "Building"],
+			'interests' => ["Hiking", "Snowboarding", "Building"],
 			'jobs' => 
 			array(/*This is the work experience array*/
 				"encore" => 
@@ -43,7 +43,7 @@ array(
 					'techUsed' => array("Microsoft Office")
 				)
 			),
-			"Skills" => 
+			"skills" => 
 			array(
 				"Problem Solving" => "90",
 				"HTML/CSS" => "80",
@@ -56,13 +56,14 @@ array(
 				"edu1" => array("General Education", "Amelia High School","2014 - 2016"),
 				"edu2" => array("BS Computer Information Technology", "Northern Kentucky University","2020 - 2023")
 			),
+			'awards' => array(),
 			"language" => 
 			array(
 				"lang0" => array("English", "(Native)"),
 				"lang1" => array("Spanish", "(Learning)")
 
 			),
-			"otherskill" => array("GitHub","MacOS","Project Management"),
+			"otherSkill" => array("GitHub","MacOS","Project Management"),
 			"project" =>
 			array(
 				"project0" =>
@@ -85,7 +86,7 @@ array(
 			'gitHub' => 'https://github.com/emcmillin25',
 			'website' => 'evanmcmillin.com',
 			'summary' => "I went to Franklin County High School. For college I started out at Ivy Tech Community College and got my associate's in Database Management. I then transfered to NKU and am currently working on my bachelor's in Computer Information Technology. I currently work at Harbor Freight in Harrison, OH. My hobbies are watching sports and messing with my cars; whether that be working on them, joy riding, or taking them to car shows and meets.",
-			'Interests' => ["Sports", "Cars", "Watching TV"],
+			'interests' => ["Sports", "Cars", "Watching TV"],
 			'jobs' => 
 			array(/*This is the work experience array*/
 				"KFC" => 
@@ -109,7 +110,7 @@ array(
 				),
 
 			),
-			"Skills" => 
+			"skills" => 
 			array(
 				"Teamwork" => "100",
 				"Work under Pressue" => "",
@@ -129,7 +130,7 @@ array(
 				"lang1" => array("Spanish", "(Education)")
 
 			),
-			"otherskill" => 
+			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
 			array(
@@ -154,7 +155,7 @@ array(
 			'gitHub' => 'github.com/LeoFoy',
 			'website' => '',
 			'summary' => "I achieved my associates degree in Computer and Information Technology alongside a work-study program called Bit502 where I apprenticed and interned at Waystar Inc. for 2 years. I love traveling, some of the places I have been are the Grand Canyon, Peru, and Greece.",
-			'Interests' => ["Video-Gaming", "Snowboarding", "Traveling"],
+			'interests' => ["Video-Gaming", "Snowboarding", "Traveling"],
 			'jobs' => 
 			array(/*This is the work experience array*/
 				"Waystar" => 
@@ -178,7 +179,7 @@ array(
 				),
 
 			),
-			"Skills" => 
+			"skills" => 
 			array(
 				"C#"=>"",
 				"Python"=>"",
@@ -201,7 +202,7 @@ array(
 				"lang0" => array("English", "(Native)")
 
 			),
-			"otherskill" => 
+			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
 			array(
@@ -225,7 +226,7 @@ array(
 			'gitHub' => 'github.com/juliannatruitt',
 			'website' => 'imjuliannatruitt.com',
 			'summary' => "I am a junior at Northern Kentucky University for the school year 2023-2024. Last fall I graduated from Gateway Community and Technical College with my Associate in Science. Currently I work as a nanny to three kids. When I am not working or at school I am probably reading, hanging out with my pet Gaara, or hanging out with my friends! If everything stays on track, I will graduate from Northern Kentucky University in May of 2025. I am majoring in Applied Software Engineering and minoring in Information Securtiy.",
-			'Interests' => ["Crocheting", "Reading", "Journaling"],
+			'interests' => ["Crocheting", "Reading", "Journaling"],
 			'jobs' =>
 			array(/*This is the work experience array*/
 				"nanny" => 
@@ -267,7 +268,7 @@ array(
 				)
 
 			),
-			"Skills" => 
+			"skills" => 
 			array(
 				"Java"=>"",
 				"PHP"=>"",
@@ -280,13 +281,13 @@ array(
 				"edu1" => array("BSc in Applied Software Engineering", "Northern Kentucky Univeristy","2023-2025"),
 				"edu2" => array("ASc in Science", "Gateway Community and Technical College","2021-2023")
 			),
-			'awards' => array("Presidents List"=>"Recieved all A's in a semester.","Deans List"=>"Recieved all A's and B's in a semester."),
+			"awards" => array("Presidents List"=>"Recieved all A's in a semester.","Deans List"=>"Recieved all A's and B's in a semester."),
 			"language" => 
 			array(
 				"lang0" => array("English", "(Native)")
 
 			),
-			"otherskill" => 
+			"otherSkill" => 
 			array("pandas","supervised machine learning algorithms","matpyplot","sklearn"),
 			"project" =>
 			array(
