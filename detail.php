@@ -204,36 +204,18 @@ $detailArray = $team[$_GET['name']];
 				<section class="resume-section experience-section mb-5">
 					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
 					<div class="row mt-4">
+					<?php foreach($detailArray['project'] as $project => $array) {?>
 						<div class="col-md-4">
 							<div class="card">
-								<img src="path-to-project-image1.jpg" alt="Project 1" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 1</h5>
-									<p class="card-text">Brief description of Project 1.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
+								<img src=<?=$project[2]?> alt=<?=$project?> class="card-img-top">
+								<div class="card-body2">
+									<h5 class="card-title"><?=$project?></h5>
+									<p class="card-text"><?=$project[0]?></p>
+									<a class="btn btn-outline-primary" href=<?=$project[1]?>><?='Check it out!'?></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image2.jpg" alt="Project 2" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 2</h5>
-									<p class="card-text">Brief description of Project 2.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image3.jpg" alt="Project 3" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 3</h5>
-									<p class="card-text">Brief description of Project 3.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
-								</div>
-							</div>
-						</div>
+					<?php } ?>
 					</div>
 				</section><!--//projects-section-->
 		    </div><!--//resume-body-->
@@ -245,7 +227,7 @@ $detailArray = $team[$_GET['name']];
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by Your names</small>
+        <small class="copyright"><?='Designed with '?><span class="sr-only"><?='love'?></span><i class="fas fa-heart"></i><?=$team[0].$team[1].$team[2].$team[3] ?></small>
     </footer>
 
     

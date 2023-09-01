@@ -60,11 +60,11 @@ array(
 			"language" => array("English" => "(Native)","Spanish" =>"(Learning)"),
 			"otherSkill" => array("GitHub","MacOS","Project Management"),
 			"project" =>
-			array(
-				"project0" =>
-				array("Hairstylist Website","In INF 286 my group worked on updating a website we found on the internet. This was a static website.","https://github.com/andrew-keller/HeadHunterHairstyling/","images/hhlogo.png"),
-				"project1" => 
-				array("Class Photo Book","In ASE 230 I worked with a team member to create a website with four with detail pages. We created it to load dynamically using functions and loops.","https://github.com/andrew-keller/Class-Photo-Book/", "images/gitHublogo.png"),
+			array(/*projectname => description, link, picture*/ 
+				"Hairstylist Website" =>
+				array("In INF 286 my group worked on updating a website we found on the internet. This was a static website.","https://github.com/andrew-keller/HeadHunterHairstyling/","images/hhlogo.png"),
+				"Class Photo Book" => 
+				array("In ASE 230 I worked with a team member to create a website with four with detail pages. We created it to load dynamically using functions and loops.","https://github.com/andrew-keller/Class-Photo-Book/", "images/gitHublogo.png"),
 
 			)
 
@@ -123,13 +123,13 @@ array(
 			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
-			array(
-				"project0" =>
-				array("Building Website","I am building my own personal website to keep track of my goals.","my-webpage.php","images/person_computer.jfif"),
-				"project1" => 
-				array("Unloading Truck","I am working on the process of unloading a truck and getting all of the newly recieved product out on the sales floor.","https://www.harborfreight.com/", "lifting_box.jpg"),
-				"project2" => 
-				array("Analyzing Data","I am making sure everything checks out before implementing the new system.","new-system.php", "files.jpg"),
+			array(/*projectname => description, link picture*/ 
+				"Building Website" =>
+				array("I am building my own personal website to keep track of my goals.","my-webpage.php","images/person_computer.jfif"),
+				"Unloading Truck" => 
+				array("I am working on the process of unloading a truck and getting all of the newly recieved product out on the sales floor.","https://www.harborfreight.com/", "lifting_box.jpg"),
+				"Analyzing Data" => 
+				array("I am making sure everything checks out before implementing the new system.","new-system.php", "files.jpg"),
 
 			)
 
@@ -191,13 +191,13 @@ array(
 			"otherSkill" => 
 			array("Coding","Organization"),
 			"project" =>
-			array(
-				"project0" =>
-				array("Python Speeding Citation Program","A python program implementing an sqlite database to collect and display speeding citations","github.com/LeoFoy/PythonCitationProg@#",""),
-				"project1" => 
-				array("Java PackBins","A simple best fit bin packing algorithm written in Java","github.com/LeoFoy/Java-packBins", ""),
-				"project2" => 
-				array("MVC Website","A simple website using the Model-View-Controller framework, also implements business logic to access an sql database","github.com/LeoFoy/MVC-Website", "files.jpg"),
+			array(/*projectname => description, link picture*/ 
+				"Python Speeding Citation Program" =>
+				array("A python program implementing an sqlite database to collect and display speeding citations","github.com/LeoFoy/PythonCitationProg@#","images/gitHublogo.png"),
+				"Java PackBins" => 
+				array("A simple best fit bin packing algorithm written in Java","github.com/LeoFoy/Java-packBins", "images/gitHublogo.png"),
+				"MVC Website" => 
+				array("A simple website using the Model-View-Controller framework, also implements business logic to access an sql database","github.com/LeoFoy/MVC-Website", "images/gitHublogo.png"),
 
 			)
 		),
@@ -272,13 +272,13 @@ array(
 			"otherSkill" => 
 			array("pandas","supervised machine learning algorithms","matpyplot","sklearn"),
 			"project" =>
-			array(
-				"project0" =>
-				array("","Created a program with machine learning algorithms to be able to scan an image of a recycled material (paper, plastic, cardboard, glass, trash, metal) and be able to distingush what recycled group it belonged to","link","picture"),
-				"project1" => 
-				array("","Created program to shuffle a set of card images and take the number from the three selected cards in order to see if you could use the cards to equivilate the number 14 using parathesis, multiplication, subtraction, and/or division.","link", "picture"),
-				"project2" => 
-				array("","Created a simple website using HTML","", ""),
+			array(/*projectname => description, link picture*/ 
+				"Project Name" =>
+				array("Created a program with machine learning algorithms to be able to scan an image of a recycled material (paper, plastic, cardboard, glass, trash, metal) and be able to distingush what recycled group it belonged to","link","picture"),
+				"Project Name 2" => 
+				array("Created program to shuffle a set of card images and take the number from the three selected cards in order to see if you could use the cards to equivilate the number 14 using parathesis, multiplication, subtraction, and/or division.","link", "picture"),
+				"Project Name3" => 
+				array("Created a simple website using HTML","link", "picture"),
 
 			)
 		)
