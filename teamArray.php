@@ -62,9 +62,9 @@ array(
 			"project" =>
 			array(/*projectname => description, link, picture*/ 
 				"Hairstylist Website" =>
-				array("In INF 286 my group worked on updating a website we found on the internet. This was a static website.","https://github.com/andrew-keller/HeadHunterHairstyling/","images/hhlogo.png"),
+				array("In INF 286 my group worked on updating a website we found on the internet. This was a static website.","https://github.com/andrew-keller/HeadHunterHairstyling/","assets/images/hhlogo.png"),
 				"Class Photo Book" => 
-				array("In ASE 230 I worked with a team member to create a website with four with detail pages. We created it to load dynamically using functions and loops.","https://github.com/andrew-keller/Class-Photo-Book/", "images/gitHublogo.png"),
+				array("In ASE 230 I worked with a team member to create a website with four with detail pages. We created it to load dynamically using functions and loops.","https://github.com/andrew-keller/Class-Photo-Book/", "assets/images/gitHublogo.png"),
 
 			)
 
@@ -125,11 +125,11 @@ array(
 			"project" =>
 			array(/*projectname => description, link picture*/ 
 				"Building Website" =>
-				array("I am building my own personal website to keep track of my goals.","my-webpage.php","images/person_computer.jfif"),
+				array("I am building my own personal website to keep track of my goals.","#","assets/images/html.jpg"),
 				"Unloading Truck" => 
-				array("I am working on the process of unloading a truck and getting all of the newly recieved product out on the sales floor.","https://www.harborfreight.com/", "lifting_box.jpg"),
+				array("I am working on the process of unloading a truck and getting all of the newly recieved product out on the sales floor.","https://www.harborfreight.com/", "assets/images/liftingBox.jpg"),
 				"Analyzing Data" => 
-				array("I am making sure everything checks out before implementing the new system.","new-system.php", "files.jpg"),
+				array("I am making sure everything checks out before implementing the new system.","#", "assets/images/files.jpg"),
 
 			)
 
@@ -141,8 +141,8 @@ array(
 			'desiredJobtitle' => "Application Engineer",
 			'email' => "lfoy306@gmail.com",
 			'number' => '(802)622-4425',
-			'linkedIn' => 'linkedin.com/in/leo-foy/',
-			'gitHub' => 'github.com/LeoFoy',
+			'linkedIn' => 'https://linkedin.com/in/leo-foy/',
+			'gitHub' => 'https://github.com/LeoFoy',
 			'website' => '',
 			'summary' => "I achieved my associates degree in Computer and Information Technology alongside a work-study program called Bit502 where I apprenticed and interned at Waystar Inc. for 2 years. I love traveling, some of the places I have been are the Grand Canyon, Peru, and Greece.",
 			'interests' => ["Video-Gaming", "Snowboarding", "Traveling"],
@@ -193,11 +193,11 @@ array(
 			"project" =>
 			array(/*projectname => description, link picture*/ 
 				"Python Speeding Citation Program" =>
-				array("A python program implementing an sqlite database to collect and display speeding citations","github.com/LeoFoy/PythonCitationProg@#","images/gitHublogo.png"),
+				array("A python program implementing an sqlite database to collect and display speeding citations","https://github.com/LeoFoy/PythonCitationProg","assets/images/gitHublogo.png"),
 				"Java PackBins" => 
-				array("A simple best fit bin packing algorithm written in Java","github.com/LeoFoy/Java-packBins", "images/gitHublogo.png"),
+				array("A simple best fit bin packing algorithm written in Java","https://github.com/LeoFoy/Java-packBins", "assets/images/gitHublogo.png"),
 				"MVC Website" => 
-				array("A simple website using the Model-View-Controller framework, also implements business logic to access an sql database","github.com/LeoFoy/MVC-Website", "images/gitHublogo.png"),
+				array("A simple website using the Model-View-Controller framework, also implements business logic to access an sql database","https://github.com/LeoFoy/MVC-Website", "assets/images/gitHublogo.png"),
 
 			)
 		),
@@ -208,8 +208,8 @@ array(
 			'desiredJobtitle' => "Software Engineer",
 			'email' => "truittj3@nku.edu",
 			'number' => '859-609-5761',
-			'linkedIn' => 'linkedin.com/juliannatruitt',
-			'gitHub' => 'github.com/juliannatruitt',
+			'linkedIn' => 'https://linkedin.com/juliannatruitt',
+			'gitHub' => 'https://github.com/juliannatruitt',
 			'website' => 'imjuliannatruitt.com',
 			'summary' => "I am a junior at Northern Kentucky University for the school year 2023-2024. Last fall I graduated from Gateway Community and Technical College with my Associate in Science. Currently I work as a nanny to three kids. When I am not working or at school I am probably reading, hanging out with my pet Gaara, or hanging out with my friends! If everything stays on track, I will graduate from Northern Kentucky University in May of 2025. I am majoring in Applied Software Engineering and minoring in Information Securtiy.",
 			'interests' => ["Crocheting", "Reading", "Journaling"],
@@ -273,12 +273,12 @@ array(
 			array("pandas","supervised machine learning algorithms","matpyplot","sklearn"),
 			"project" =>
 			array(/*projectname => description, link picture*/ 
-				"Project Name" =>
-				array("Created a program with machine learning algorithms to be able to scan an image of a recycled material (paper, plastic, cardboard, glass, trash, metal) and be able to distingush what recycled group it belonged to","link","picture"),
-				"Project Name 2" => 
-				array("Created program to shuffle a set of card images and take the number from the three selected cards in order to see if you could use the cards to equivilate the number 14 using parathesis, multiplication, subtraction, and/or division.","link", "picture"),
-				"Project Name3" => 
-				array("Created a simple website using HTML","link", "picture"),
+				"Machine Learning Recycling" =>
+				array("Created a program with machine learning algorithms to be able to scan an image of a recycled material (paper, plastic, cardboard, glass, trash, metal) and be able to distingush what recycled group it belonged to","#","assets/images/machineLearning.jpg"),
+				"Card Shuffle Program" => 
+				array("Created program to shuffle a set of card images and take the number from the three selected cards in order to see if you could use the cards to equivilate the number 14 using parathesis, multiplication, subtraction, and/or division.","#", "assets/images/cards.jpg"),
+				"Website Created" => 
+				array("Created a simple website using HTML","#", "assets/images/html.jpg"),
 
 			)
 		)

@@ -46,15 +46,15 @@ $detailArray = $team[$_GET['name']];
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?=$detailArray['name']?></h1>
 							    <div class="title mb-3"><?=$detailArray['desiredJobtitle'] ?></div>
 							    <ul class="list-unstyled">
-									<li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?=$detailArray['email'] ?></a></li>
+									<li class="mb-2"><a class="text-link" href=<?="mailto:".$detailArray['email']?>><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?=$detailArray['email'] ?></a></li>
 								<li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?=$detailArray['number'] ?></a></li>
 							  
 							    </ul>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
 							    <ul class="resume-social list-unstyled">
-					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?=$detailArray['linkedIn'] ?></a></li>
-					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?=$detailArray['gitHub'] ?></a></li>
+					                <li class="mb-3"><a class="text-link" href=<?=$detailArray['linkedIn'] ?>><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?=$detailArray['linkedIn'] ?></a></li>
+					                <li class="mb-3"><a class="text-link" href=<?=$detailArray['gitHub'] ?>><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?=$detailArray['gitHub'] ?></a></li>
 					                <li><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?=$detailArray['website'] ?></a></li>
 							    </ul>
 						    </div><!--//secondary-info-->
@@ -204,11 +204,11 @@ $detailArray = $team[$_GET['name']];
 					<?php foreach($detailArray['project'] as $project => $array) {?>
 						<div class="col-md-4">
 							<div class="card">
-								<img src=<?=$project[2]?> alt=<?=$project?> class="card-img-top">
+								<img src=<?=$array[2]?> alt=<?=$project?> class="card-img-top">
 								<div class="card-body2">
 									<h5 class="card-title"><?=$project?></h5>
-									<p class="card-text"><?=$project[0]?></p>
-									<a class="btn btn-outline-primary" href=<?=$project[1]?>><?='Check it out!'?></a>
+									<p class="card-text"><?=$array[0]?></p>
+									<a class="btn btn-outline-primary" href=<?=$array[1]?>><?='Check it out!'?></a>
 								</div>
 							</div>
 						</div>
