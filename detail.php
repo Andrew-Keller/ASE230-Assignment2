@@ -59,7 +59,6 @@ $detailArray = $team[$_GET['name']];
 							    </ul>
 						    </div><!--//secondary-info-->
 					    </div><!--//row-->
-					    
 				    </div><!--//col-->
 			    </div><!--//row-->
 		    </header>
@@ -110,8 +109,6 @@ $detailArray = $team[$_GET['name']];
 
 								    </article><!--//resume-timeline-item-->
 								    <?php }}?>
-								   
-
 							    </div><!--//resume-timeline-->
 							    
 						    </div>
@@ -227,7 +224,9 @@ $detailArray = $team[$_GET['name']];
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright"><?='Designed with '?><span class="sr-only"><?='love'?></span><i class="fas fa-heart"></i><?=$team[0].$team[1].$team[2].$team[3] ?></small>
+        <small class="copyright"><?='Designed with '?><span class="sr-only"><?='love'?></span><i class="fas fa-heart"></i><?php echo " by ";foreach($team as $member){
+        	echo " ". $member['name'] .' ';
+        } ?></small>
     </footer>
 
     

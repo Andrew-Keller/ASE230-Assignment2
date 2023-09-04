@@ -30,7 +30,7 @@ include 'teamArray.php';
 <body>
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
-			<h1 class="py-4 text-center"><?'OUR AMAZING TEAM'?></h1>
+			<h1 class="py-4 text-center" ><?="OUR AMAZING TEAM"?></h1>
 				    	<?php foreach($team as $member){ ?>
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="row">
@@ -58,7 +58,9 @@ include 'teamArray.php';
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright"><?= 'Designed with '?><span class="sr-only"><?='love'?></span><i class="fas fa-heart"></i><?=" by "/*need to add team names*/ ?></small>
+        <small class="copyright"><?='Designed with '?><span class="sr-only"><?='love'?></span><i class="fas fa-heart"></i><?php echo " by ";foreach($team as $member){
+        	echo " ". $member['name'] .' ';
+        } ?></small>
     </footer>
 
     
